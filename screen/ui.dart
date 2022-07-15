@@ -15,6 +15,8 @@ class _ListViewPageState extends State<ListViewPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        floatingActionButton: FloatingActionButton(onPressed: (){}),
+        
         appBar: AppBar(
           backgroundColor: Colors.red,
           leading: const Icon(Icons.menu),
@@ -30,10 +32,7 @@ class _ListViewPageState extends State<ListViewPage> {
           ),
         ),
 
-        // floatingActionButton: const FloatingActionButton(
-        //   splashColor: Colors.pink,
-        //   child:  Icon(Icons.message),
-        // ),
+   body: Column(children: [Text('data')],),
       )
       );
     
